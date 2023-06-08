@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.contenitore{
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 150px;
+}
+
+header,nav{
+    text-align: center;
+}
+
+.logo{
+    width: 250px;
+}
+
+.titolo{
+    color: rgb(41, 224, 41);
+}
+
+nav{
+    background-color: rgb(41, 224, 41);
+    margin: auto;
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+}
+
+section{
+    margin: auto;
+    color: white;
+}
+.monopattino{
+    display: inline-block;
+}
+
+.box{
+    height: 40px;
+    border-radius: 10px;
+}
+
+.A{
+    width: 300px;
+    background-color: orange;
+}
+ 
+.B{
+    width: 500px;
+    background-color: chartreuse;
+}
+
+.C{
+    width: 150px;
+    background-color: red;
+}
